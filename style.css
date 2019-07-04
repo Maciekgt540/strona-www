@@ -1,0 +1,131 @@
+
+/* ------  RAMY STRONY  ------ */
+#gora
+{
+ background-color:blue;
+ width: 100% ;
+ height: 15%;
+}
+#bok
+{
+    background-color:red;
+    float:left;
+    height:78%;
+    width:20%;
+}
+#srodek
+{
+    background-color:green;
+    width:80%;
+    height:78%;
+    float:right;
+}
+#dol
+{
+    background-color:yellow;
+    float:left;
+    height:2%;
+    width:100%;
+    font-size:10;
+    text-align:right;
+}
+
+/* ------   KONIEC - RAMY STRONY  ------ */
+
+
+
+/* MENU */
+
+
+/* div o nazwie "menu" */
+#menu
+{
+    background-color:#3300CC;
+    width: 100%;
+    height: 1em;
+    margin:1px;
+	position: absolute;
+}
+
+/* glowny element OL */
+#menu > ol {
+ list-style-type:none;
+    padding:0;
+    margin:0;
+    background-color:#FFF;
+    font-size:12px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+}
+
+/* wyglad elementow 'a' */
+#menu > ol a {
+    display:block;
+    text-decoration:none;
+    color:#000;
+    padding:0 5px; 
+
+}
+
+/* wyglad elementow li elementu ol */
+#menu > ol > li{
+    float:left;
+    width:150px;
+    margin-left:1px;
+    background-color:#FDD700;
+    height:2em;
+}
+
+
+/* wyglad elementow li elementu ol po najechaniu kursorem */
+
+#menu > ol > li:hover{
+    background-color:#09C;
+}
+
+/* wyglad elementow a elementu li po najechaniu kursorem */
+
+#menu > ol > li:hover > a{
+    color:#EEE;
+	text-transform: uppercase;
+}
+
+
+#menu > ol > li:hover > ul{
+    display:block;
+}
+
+/* KONIEC MENU */
+
+/* MENU ROZWIJANE */
+
+#menu > ol > li > ul {
+ display:none;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+#menu > ol > li > ul >li {
+    position:relative;
+    background-color:#eee;
+}
+
+#menu > ol > li > ul > li >a {
+
+    border-top:1px solid #FFF;
+}
+
+
+#menu > ol > li > ul >li:hover {
+
+    background-color:#09FF12;
+}
+
+#menu > ol > li > ul >li:hover >a {
+
+    color:#09C;
+}
+
+/* KONIEC MENU ROZWIJANE */
